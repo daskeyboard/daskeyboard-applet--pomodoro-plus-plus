@@ -1,0 +1,62 @@
+{
+  "name": "daskeyboard-applet--pomodoro-timer",
+  "displayName": "Pomodoro Timer",
+  "version": "1.0.0",
+  "description": "A Pomodoro timer that helps manage work and break cycles with color-coded lighting.",
+  "longDescription": "Get notified when the ISS passes overhead your location.Track your productivity using the Pomodoro technique. The applet uses color-coded lights on your keyboard to indicate work and break cycles, enhancing focus and time management.",
+  "officialProductName": "Pomodoro Timer",
+  "publisherName": "Das Keyboard",
+  "publisher": "Das Keyboard",
+  "authorName": "Das Keyboard",
+  "authorUrl": "https://github.com/daskeyboard",
+  "issuesUrl": "https://github.com/Rubiksel/daskeyboard-applet--pomodoro-timer/issues",
+  "developerRepoUrl": "https://github.com/Rubiksel/daskeyboard-applet--pomodoro-timer",
+  "homePageUrl": "https://github.com/Rubiksel/daskeyboard-applet--pomodoro-timer",
+  "isSingleton": false,
+  "videoUrl": "",
+  "icon": "assets/icon.png",
+  "image": "assets/image.png",
+  "readMeUrl": "README.md",
+  "readMeEndUserUrl": "README_ENDUSER.md",
+  "changelogUrl": "CHANGELOG.md",
+  "license": "MIT",
+  "licenseUrl": "http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+  "engines": {
+    "das-keyboard-q": "4.1.3"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "daskeyboard-applet": "^2.11.5",
+    "node-fetch": "^2.6.7"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "qConfig": {
+    "geometry": {
+      "width": 1,
+      "height": 1
+    },
+    "questions": [
+      {
+        "key": "workDuration",
+        "label": "Work Duration (minutes)",
+        "help": "Enter your preferred work duration (e.g., 25 for 25 minutes)",
+        "required": true,
+        "order": 1,
+        "controlType": "textbox"
+      },
+      {
+        "key": "breakDuration",
+        "label": "Break Duration (minutes)",
+        "help": "Enter your preferred break duration (e.g., 5 for 5 minutes)",
+        "required": true,
+        "order": 2,
+        "controlType": "textbox"
+      }
+    ]
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
