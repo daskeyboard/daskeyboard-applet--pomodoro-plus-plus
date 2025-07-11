@@ -32,7 +32,7 @@ class FocusCycleTimer extends q.DesktopApp {
 
     return new q.Signal({
       points: [[new q.Point(color, effect)]],
-      name: "Pomodoro Timer",
+      name: "Focus Cycle Timer",
       message: message,
     });
   }
