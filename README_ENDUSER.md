@@ -1,16 +1,16 @@
-# Pomodoro Timer – Das Keyboard Applet
+# Focus Cycle Timer – Das Keyboard Applet
 
-Stay productive using a customizable **Pomodoro-style timer** that glows on your Das Keyboard Q.  
-Visual cues help you stay in the zone — and know when it’s time to take a break.
+Stay productive with a simple, visual work/break timer that runs directly on your Das Keyboard Q.  
+The applet uses color-coded lighting to show whether it’s time to focus — or time to rest.
 
-![Pomodoro Timer Applet Preview](assets/image.png "Pomodoro Timer")
+![Focus Cycle Timer Applet Preview](assets/image.png "Focus Cycle Timer")
 
-## 🧠 What Is the Pomodoro Technique?
+## 🧠 What Is the Focus Cycle Timer?
 
-The **Pomodoro Technique** is a time management method that breaks work into intervals:  
-Traditionally, **25 minutes of focused work** followed by a **5-minute break**.
+This applet helps structure your day using alternating periods of work and rest.  
+It’s inspired by techniques like Pomodoro but gives you the freedom to set your **own durations**.
 
-This applet lets you apply that rhythm — or set your own — right from your keyboard.
+Whether you prefer 25/5, 60/20, or something custom — your keyboard will guide your rhythm without distractions.
 
 ## ⏱ Applet Behavior
 
@@ -23,5 +23,5 @@ This applet lets you apply that rhythm — or set your own — right from your k
 
 1. **Install this applet** in the Das Keyboard Q software
 2. **Assign the applet to any key** on your keyboard
-3. **Configure your own custom durations**
+3. **Configure your preferred durations**
 4. **Watch the key light up** based on whether it's time to work or time to take a break!

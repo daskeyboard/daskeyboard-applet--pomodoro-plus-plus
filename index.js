@@ -1,14 +1,14 @@
 const q = require("daskeyboard-applet");
 const logger = q.logger;
 
-class PomodoroTimer extends q.DesktopApp {
+class FocusCycleTimer extends q.DesktopApp {
   constructor() {
     super();
     this.pollingInterval = 30000; // every 30 seconds
     this.remainingTime = null;
     this.currentCycle = "work";
 
-    logger.info("Pomodoro Timer ready to launch");
+    logger.info("Focus Cycle Timer ready to launch");
   }
 
   generateSignal(currentCycle) {
@@ -64,5 +64,5 @@ class PomodoroTimer extends q.DesktopApp {
   }
 }
 
-module.exports = { PomodoroTimer: PomodoroTimer };
-const applet = new PomodoroTimer();
+module.exports = { FocusCycleTimer: FocusCycleTimer };
+const applet = new FocusCycleTimer();
