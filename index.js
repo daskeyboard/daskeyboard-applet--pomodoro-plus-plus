@@ -21,7 +21,7 @@ class PomodoroTimer extends q.DesktopApp {
     let message;
     let effect;
     if (currentCycle === "work") {
-      color = "#0000FF"; // blue for work
+      color = "#0088FF"; // blue for work
       message = "Time to work!";
       effect = "BREATHE";
     } else {
