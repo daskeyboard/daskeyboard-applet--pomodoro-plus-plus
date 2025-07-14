@@ -1,13 +1,13 @@
-# Q Applet: Focus Cycle Timer
+# Q Applet: Pomodoro++
 
 A flexible work/break timer inspired by the Pomodoro Technique but fully customizable to your own rhythm.
 
 ## Example
 
-Focus Cycle Timer running on the F4 key, with a **blue breathing effect** during work sessions  
+Pomodoro++ running on the F4 key, with a **blue breathing effect** during work sessions  
 and a **green blinking effect** during breaks.
 
-![Focus Cycle Timer on a Das Keyboard Q](assets/image.png "Focus Cycle Timer")
+![Pomodoro++ on a Das Keyboard Q](assets/image.png "Pomodoro++")
 
 ## Changelog
 
