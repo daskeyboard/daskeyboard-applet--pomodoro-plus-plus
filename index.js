@@ -12,11 +12,6 @@ class FocusCycleTimer extends q.DesktopApp {
   }
 
   generateSignal(currentCycle) {
-    logger.info("==============================");
-    logger.info(
-      `Current Cycle: ${currentCycle}, remainingTime: ${this.remainingTime}`
-    );
-    logger.info("==============================");
     let color;
     let message;
     let effect;
