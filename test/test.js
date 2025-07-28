@@ -1,4 +1,4 @@
-const { FocusCycleTimer } = require("../index"); // adjust path if needed
+const { PomodoroPlusPlus } = require("../index"); // adjust path if needed
 
 // Mock Das Keyboard SDK
 jest.mock("daskeyboard-applet", () => {
@@ -21,11 +21,11 @@ jest.mock("daskeyboard-applet", () => {
   };
 });
 
-describe("FocusCycleTimer", () => {
+describe("Pomodoro++", () => {
   let applet;
 
   beforeEach(() => {
-    applet = new FocusCycleTimer();
+    applet = new PomodoroPlusPlus();
     applet.config = {
       workDuration: 1, // 1 minute
       breakDuration: 1, // 1 minute
