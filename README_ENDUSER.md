@@ -1,6 +1,6 @@
 # Pomodoro++ – Das Keyboard Applet
 
-This applet's source code can be found [here](https://github.com/daskeyboard/daskeyboard-applet--pomodoro-max).
+This applet's source code can be found [here](https://github.com/daskeyboard/daskeyboard-applet--pomodoro-plus-plus).
 
 Stay productive with a simple, visual work/break timer that runs directly on your Das Keyboard Q.
 The applet uses color-coded lighting to show whether it’s time to focus or time to rest.
